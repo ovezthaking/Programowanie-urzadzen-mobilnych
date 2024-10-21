@@ -91,16 +91,15 @@
     </androidx.cardview.widget.CardView>
 
     <Button
+        android:id="@+id/nastepne"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:background="#47894A"
+        android:background="#3F653F"
         android:text="Następne"
-        android:textColorLink="#386B3A"
-        android:textSize="16sp"
-        android:id="@+id/nastepne"/>
+        android:textSize="16sp" />
 
 
 </LinearLayout>
