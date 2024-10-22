@@ -50,6 +50,7 @@
         android:layout_marginBottom="16dp">
 
         <RadioGroup
+            android:id="@+id/odpowiedzi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="35dp"
