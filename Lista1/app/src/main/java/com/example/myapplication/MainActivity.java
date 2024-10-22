@@ -65,24 +65,24 @@ public class MainActivity extends AppCompatActivity {
         List<Question> questions = new ArrayList<>();
         questions.add(new Question("Jaką właściwość ciała określa stosunek masy do objętości?",
                 new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("AJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("BJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("CJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("DJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("EJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("FJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("GJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("HJaką właściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
-        questions.add(new Question("Iaściwość ciała określa stosunek masy do objętości?",
-                new String[]{"Prędkość", "Energia kinetyczna", "Gęstość", "Temperatura"}, 2));
+        questions.add(new Question("Jaką funkcję pełni mitochondrium w komórce?",
+                new String[]{"Produkcja energii", "Przemieszczanie komórki", "Replikacja DNA", "Synteza białek"}, 0));
+        questions.add(new Question("Jaki jest chemiczny symbol wody?",
+                new String[]{"H2", "O2", "H2O", "CO2"}, 2));
+        questions.add(new Question("Które z poniższych jest planetą?",
+                new String[]{"Księżyc", "Słońce", "Mars", "Betelgeza"}, 2));
+        questions.add(new Question("Który pierwiastek chemiczny ma symbol 'O'?",
+                new String[]{"Wodór", "Tlen", "Azot", "Hel"}, 1));
+        questions.add(new Question("Która z poniższych jednostek jest jednostką mocy?",
+                new String[]{"Joule", "Wat", "Niuton", "Kelwin"}, 1));
+        questions.add(new Question("Co mierzy termometr?",
+                new String[]{"Ciśnienie", "Temperaturę", "Prędkość", "Czas"}, 1));
+        questions.add(new Question("Jaka jest funkcja układu krwionośnego?",
+                new String[]{"Trawienie pokarmu", "Dostarczanie tlenu i substancji odżywczych", "Regulacja temperatury", "Wydalanie odpadów"}, 1));
+        questions.add(new Question("Która planeta jest najbliższa Słońcu?",
+                new String[]{"Ziemia", "Mars", "Merkury", "Wenus"}, 2));
+        questions.add(new Question("Który pierwiastek chemiczny jest najlżejszy?",
+                new String[]{"Tlen", "Hel", "Wodór", "Azot"}, 2));
 
 
         return questions;
