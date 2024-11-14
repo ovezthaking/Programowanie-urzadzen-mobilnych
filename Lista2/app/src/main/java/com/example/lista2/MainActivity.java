@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
     protected List<User> populateUsersList() {
         return new ArrayList<>(List.of(
                 new User("admin", "admin"),
-                new User("pudzian", "pudzian123"),
-                new User("adam", "adam420"),
-                new User("konto4", "haslo111"),
-                new User("konto5", "haslo555")
+                new User("megazord", "megazord2137"),
+                new User("maciek", "maciejson"),
+                new User("konto4", "h2115"),
+                new User("konto5", "y654")
         ));
     }
 
