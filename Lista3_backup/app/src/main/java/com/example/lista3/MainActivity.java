@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         List<Subject> subjects = List.of(
                 new Subject("Wstęp do algebry"),
-                new Subject("Programowanie urządzeń mobilnych"),
+                new Subject("PUM"),
                 new Subject("fizyka"),
                 new Subject("Programowanie w C++"),
                 new Subject("Matematyka")
