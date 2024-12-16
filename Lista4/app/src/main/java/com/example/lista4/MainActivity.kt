@@ -60,7 +60,7 @@ val questions : List<QuizQuestion> = QuizQuestion().populateQuestionsList();
 @Composable
 fun QuizUI() {
     val (selectedAnswerIndex, onAnswerSelected) = rememberSaveable {
-        mutableIntStateOf(-1)
+        mutableIntStateOf(0)
     }
     val currentQuestionIndex : MutableIntState = rememberSaveable() { mutableIntStateOf(0) }
     val score : MutableIntState = rememberSaveable() { mutableIntStateOf(0) };
